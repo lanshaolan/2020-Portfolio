@@ -23,21 +23,6 @@ $main-gray: #535353;
 }
 
 // 學經歷區塊樣式
-@mixin sectionH3 {
-    font-size: 3.5rem;
-    color: $main-yellow;
-    display: block;
-
-    .line-y {
-        display: inline-block;
-        top: 20px;
-        height: 1px;
-        width: 160px;
-        vertical-align: middle;
-        background-color: $main-yellow;
-    }
-
-}
 
 @mixin year {
     img {
@@ -172,10 +157,9 @@ main {
 
         .exp-list {
             position: relative;
-            height: 450px;
 
             .exp-item {
-                position: absolute;
+
 
                 p{
                     display: inline-block;
@@ -186,15 +170,6 @@ main {
                     margin-left: 30px;
                 }
 
-                &:nth-child(2){
-                    top: 150px;
-                    left: 200px;
-                }
-
-                &:nth-child(3){
-                    top: 300px;
-                    left: 380px;
-                }
             }
 
         }
@@ -203,12 +178,6 @@ main {
 
     // 工作技能 #skill
     .row.skill {
-
-        .h3 {
-            .line-y {
-                width: 100px;
-            }
-        }
 
         .skill-item {
             display: flex;
