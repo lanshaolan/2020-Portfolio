@@ -149,31 +149,10 @@ main {
         padding: 50px 0;
         margin-top: 30px;
     }
-
-    .row {
-        justify-content: space-between;
-        position: relative;
-    }
-
-    .section-title-r {
-        transform: rotate(90deg);
-        position: absolute;
-        top: 150px;
-        right: -100px;
-
-        .h3 {
-            @include sectionH3();
-        }
-    }
-
-    .section-title-l {
-        transform: rotate(90deg);
-        position: absolute;
-        top: 150px;
-        left: -150px;
-
-        .h3 {
-            @include sectionH3();
+    
+    .section-title{
+        img{
+            width: 4rem;
         }
     }
 
@@ -189,6 +168,7 @@ main {
     // 學經歷 #exp
     .row.exp {
         position: relative;
+        flex-direction: row-reverse;
 
         .exp-list {
             position: relative;
@@ -223,7 +203,6 @@ main {
 
     // 工作技能 #skill
     .row.skill {
-        flex-direction: row-reverse;
 
         .h3 {
             .line-y {
@@ -244,10 +223,6 @@ main {
                     background: url(../img/bottom-line-y.svg) repeat-x center bottom;
                     background-size: .75rem;
 
-                    &::after {
-                        // content: '';
-                        // margin-top: -0.7rem;
-                    }
                 }
 
                 .skill-icon {
@@ -279,6 +254,7 @@ main {
     .row.works {
         position: relative;
         margin-bottom: 100px;
+        flex-direction: row-reverse;
 
         .works-list {
 
@@ -396,7 +372,7 @@ main {
             position: relative;
             flex-direction: row-reverse;
 
-            .section-title-l {
+            .section-title {
 
                 .h3 {
                     color: #fff;

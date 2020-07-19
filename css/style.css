@@ -102,57 +102,8 @@ main section {
   margin-top: 30px;
 }
 
-main .row {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: relative;
-}
-
-main .section-title-r {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-  position: absolute;
-  top: 150px;
-  right: -100px;
-}
-
-main .section-title-r .h3 {
-  font-size: 3.5rem;
-  color: #ffdb00;
-  display: block;
-}
-
-main .section-title-r .h3 .line-y {
-  display: inline-block;
-  top: 20px;
-  height: 1px;
-  width: 160px;
-  vertical-align: middle;
-  background-color: #ffdb00;
-}
-
-main .section-title-l {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-  position: absolute;
-  top: 150px;
-  left: -150px;
-}
-
-main .section-title-l .h3 {
-  font-size: 3.5rem;
-  color: #ffdb00;
-  display: block;
-}
-
-main .section-title-l .h3 .line-y {
-  display: inline-block;
-  top: 20px;
-  height: 1px;
-  width: 160px;
-  vertical-align: middle;
-  background-color: #ffdb00;
+main .section-title img {
+  width: 4rem;
 }
 
 main .year {
@@ -177,6 +128,10 @@ main .bg-yellow .status {
 
 main .row.exp {
   position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 main .row.exp .exp-list {
@@ -205,13 +160,6 @@ main .row.exp .exp-list .exp-item:nth-child(2) {
 main .row.exp .exp-list .exp-item:nth-child(3) {
   top: 300px;
   left: 380px;
-}
-
-main .row.skill {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
 }
 
 main .row.skill .h3 .line-y {
@@ -255,6 +203,10 @@ main .row.skill .skill-item .skill-list .skill-txt span img {
 main .row.works {
   position: relative;
   margin-bottom: 100px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 main .row.works .works-list .filter {
@@ -382,11 +334,11 @@ main #contact .row.contact {
           flex-direction: row-reverse;
 }
 
-main #contact .row.contact .section-title-l .h3 {
+main #contact .row.contact .section-title .h3 {
   color: #fff;
 }
 
-main #contact .row.contact .section-title-l .h3 .line-y {
+main #contact .row.contact .section-title .h3 .line-y {
   background-color: #fff;
 }
 
