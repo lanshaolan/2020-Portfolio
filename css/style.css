@@ -110,6 +110,8 @@ main .row {
 }
 
 main .section-title-r {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
   position: absolute;
   top: 150px;
   right: -100px;
@@ -117,8 +119,7 @@ main .section-title-r {
 
 main .section-title-r .h3 {
   font-size: 3.5rem;
-  background-color: #ffdb00;
-  color: #fff;
+  color: #ffdb00;
   display: block;
 }
 
@@ -128,10 +129,12 @@ main .section-title-r .h3 .line-y {
   height: 1px;
   width: 160px;
   vertical-align: middle;
-  background-color: #fff;
+  background-color: #ffdb00;
 }
 
 main .section-title-l {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
   position: absolute;
   top: 150px;
   left: -150px;
@@ -139,8 +142,7 @@ main .section-title-l {
 
 main .section-title-l .h3 {
   font-size: 3.5rem;
-  background-color: #ffdb00;
-  color: #fff;
+  color: #ffdb00;
   display: block;
 }
 
@@ -150,7 +152,7 @@ main .section-title-l .h3 .line-y {
   height: 1px;
   width: 160px;
   vertical-align: middle;
-  background-color: #fff;
+  background-color: #ffdb00;
 }
 
 main .year {
