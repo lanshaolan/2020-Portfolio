@@ -119,7 +119,8 @@ main .section-title-r {
 
 main .section-title-r .h3 {
   font-size: 3.5rem;
-  color: #ffdb00;
+  background-color: #ffdb00;
+  color: #fff;
   display: block;
 }
 
@@ -142,7 +143,8 @@ main .section-title-l {
 
 main .section-title-l .h3 {
   font-size: 3.5rem;
-  color: #ffdb00;
+  background-color: #ffdb00;
+  color: #fff;
   display: block;
 }
 
